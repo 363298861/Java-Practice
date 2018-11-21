@@ -1,4 +1,4 @@
-package Abstract_type.ArrayList;
+package Abstract_type.List;
 
 public class ArrayList<T> implements List<T> {
 
@@ -8,16 +8,18 @@ public class ArrayList<T> implements List<T> {
     private T[] list = (T[]) new Object[INITIAL_SIZE];
     private int elements = 0;
 
+
     @Override
     public void add(T value) {
         if(elements == list.length){
-            T[] tem = (T[]) new Object[(int) (INITIAL_SIZE * GROWTH_FACTOR)];
+            T[] tem = (T[]) new Object[(int) (list.length * GROWTH_FACTOR)];
             for(int i = 0; i < elements; i++)
                 tem[i] = list[i];
             list = tem;
         }
         list[elements] = value;
         elements++;
+
     }
 
     @Override
@@ -25,6 +27,7 @@ public class ArrayList<T> implements List<T> {
         elements--;
         for (int i = index; i < elements; i++)
             list[i] = list[i + 1];
+
     }
 
     @Override

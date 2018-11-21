@@ -1,56 +1,65 @@
 package Abstract_type.Map;
 
-import java.util.HashSet;
+import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
+
+import static junit.framework.TestCase.assertTrue;
 
 public class MapTest {
+    boolean USE_HASH = true;
 
-    @org.junit.Test
-    public void testPut(){
-        Map<String, Integer> set = new HashMap<>();
-        assertTrue(set.size() == 0);
-        set.put("huang", 26);
-        assertTrue(set.size() == 1);
-        System.out.println(set);
-        assertTrue(set.toString().equals("(huang, 26)"));
-        set.put("ling", 25);
-        assertTrue(set.size() == 2);
-        assertTrue(set.toString().equals("(huang, 26), (ling, 25)") || set.toString().equals("(ling, 25), (huang, 26)"));
-        set.put("huang", 26);
-        assertTrue(set.size() == 2);
-        assertTrue(set.toString().equals("(huang, 26), (ling, 25)") || set.toString().equals("(ling, 25), (huang, 26)"));
+
+    @Test
+    public void testPut() {
+        Map<String,Integer> map = USE_HASH ? new HashMap<String, Integer>() : new BSTMap<String, Integer>();
+        map.put("Bob", 19);
+        assertTrue(map.size() == 1);
+        assertTrue(map.toString().equals("(Bob, 19)"));
+        map.put("Mary", 21);
+        assertTrue(map.size() == 2);
+        assertTrue(map.toString().equals("(Bob, 19), (Mary, 21)") || map.toString().equals("(Mary, 21), (Bob, 19)"));
+        map.put("Mary", 20);
+        assertTrue(map.size() == 2);
+        assertTrue(map.toString().equals("(Bob, 19), (Mary, 20)") || map.toString().equals("(Mary, 20), (Bob, 19)"));
     }
 
-    @org.junit.Test
-    public void testRemove(){
-        Map<String, Integer> set = new HashMap<>();
-        set.put("huang", 26);
-        set.put("ling", 26);
-        set.put("Ying", 25);
-        assertTrue(set.size() == 3);
-        set.remove("Ying");
-        assertTrue(set.size() == 2);
-        assertTrue(set.size() == 2);
-        assertTrue(set.toString().equals("(huang, 26), (ling, 26)") || set.toString().equals("(ling, 26), (huang, 26)"));
-        set.remove("ling");
-        assertTrue(set.size() == 1);
-        assertTrue(set.toString().equals("huang, 26"));
-        set.remove("huang");
-        assertTrue(set.size() == 0);
+
+    @Test
+    public void testRemove() {
+        Map<String,Integer> map = USE_HASH ? new HashMap<String, Integer>() : new BSTMap<String, Integer>();
+        map.put("Bob", 19);
+        map.put("Mary", 21);
+        map.remove("Mary");
+        assertTrue(map.size() == 1);
+        assertTrue(map.toString().equals("(Bob, 19)"));
+        map.put("Mary", 21);
+        map.put("Fred", 20);
+        map.remove("Bob");
+        assertTrue(map.size() == 2);
+        System.out.println(map);
+        assertTrue(map.toString().equals("(Fred, 20), (Mary, 21)") || map.toString().equals("(Mary, 21), (Fred, 20)"));
+        map.put("Sue", 22);
+        map.remove("Mary");
+        assertTrue(map.size() == 2);
+        assertTrue(map.toString().equals("(Fred, 20), (Sue, 22)") || map.toString().equals("(Sue, 22), (Fred, 20)"));
+        map.remove("Fred");
+        assertTrue(map.size() == 1);
+        assertTrue(map.toString().equals("(Sue, 22)"));
+        map.remove("Fred");
+        assertTrue(map.size() == 1);
+        assertTrue(map.toString().equals("(Sue, 22)"));
     }
 
-    @org.junit.Test
+    @Test
     public void testGet() {
-        Map<String, Integer> set = new HashMap<>();
-        set.put("huang", 26);
-        set.put("ling", 26);
-        set.put("Ying", 25);
-        assertTrue(set.get("huang") == 26);
-        assertTrue(set.get("ling") == 26);
-        assertTrue(set.get("Ying") == 25);
-        set.remove("ling");
-        assertTrue(set.get("ling") == null);
+        Map<String,Integer> map = USE_HASH ? new HashMap<String, Integer>() : new BSTMap<String, Integer>();
+        map.put("Bob", 19);
+        map.put("Mary", 21);
+        map.put("Fred", 20);
+        assertTrue(map.get("Bob") == 19 && map.get("Fred") == 20 && map.get("Mary") == 21);
+        assertTrue(map.get("Sue") == null);
+        map.remove("Bob");
+        assertTrue(map.get("Bob") == null);
     }
 
 }

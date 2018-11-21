@@ -1,6 +1,7 @@
-package Abstract_type.ArrayList;
+package Abstract_type.List;
 
 public class LinkedList<T> implements List<T> {
+
     private LinkedL first, last;
     int elements;
 
@@ -18,8 +19,6 @@ public class LinkedList<T> implements List<T> {
         }
     }
 
-
-
     @Override
     public void add(T value) {
         if(first == null)
@@ -29,6 +28,7 @@ public class LinkedList<T> implements List<T> {
             last = last.next;
         }
         elements++;
+
     }
 
     @Override
@@ -59,13 +59,8 @@ public class LinkedList<T> implements List<T> {
         if(index < 0 || index >= elements)
             throw new IndexOutOfBoundsException();
         return getLinkedL(first, index).value;
-    }
 
-    @Override
-    public int size() {
-        return elements;
     }
-
     private LinkedL reversal (LinkedL oldFirst){
         if(oldFirst.next == null)
             return oldFirst;
@@ -75,7 +70,11 @@ public class LinkedList<T> implements List<T> {
             newPrev.next = oldFirst;
             return first;
         }
+    }
 
+    @Override
+    public int size() {
+        return elements;
     }
 
     @Override
@@ -84,10 +83,11 @@ public class LinkedList<T> implements List<T> {
         last = first;
         first = reversal(first);
         last.next = null;
-
     }
+
     @Override
     public String toString(){
         return first == null ? "" : first.toString();
     }
+
 }

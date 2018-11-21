@@ -3,16 +3,22 @@ package Abstract_type.Map;
 import java.util.LinkedList;
 
 public class HashMap<K, V> implements Map<K, V> {
-    final static int SIZE = 2;
-    LinkedList<KVpair>[] table = new LinkedList[SIZE];
-    int elements = 0;
+    static final int Size = 20;
+    LinkedList<KVpair>[] table;
+    int n;
 
-    private int hash(K key){
-        return Math.abs(key.hashCode() % 2);
+    HashMap(){
+        table = new LinkedList[Size];
     }
 
-    class KVpair {
-        K key; V value;
+    int hash(K key){
+        return Math.abs(key.hashCode() % Size);
+    }
+
+    class KVpair{
+        K key;
+        V value;
+
         KVpair(K key, V value){
             this.key = key;
             this.value = value;
@@ -20,79 +26,79 @@ public class HashMap<K, V> implements Map<K, V> {
 
         @Override
         public String toString(){
-            return "(" + key + ", " + value + ")";
+            return "(" +  key + ", " + value + ")";
         }
     }
 
-    KVpair find(LinkedList<KVpair> ll, K key){
-        for(KVpair kv : ll){
-            if(kv.key.equals(key))
-                return kv;
+    KVpair find(LinkedList<KVpair> a, K key){
+        for(int i = 0 ; i< a.size(); i++){
+            if(a.get(i).key.equals(key)){
+                return a.get(i);
+            }
         }
         return null;
     }
 
+
     @Override
     public void put(K key, V value) {
         int a = hash(key);
-        if(table[a] == null)
+        if (table[a] == null) {
             table[a] = new LinkedList<>();
-        LinkedList<KVpair> ll = table[a];
-        KVpair kv = find(ll, key);
-        if(kv == null) {
-            ll.add(new KVpair(key, value));
-            elements++;
-        }else {
-            kv.value = value;
         }
-
+        LinkedList<KVpair> ll = table[a];
+        if (find(ll, key) != null) {
+            find(ll, key).value = value;
+        }else{
+            ll.add(new KVpair(key, value));
+            n++;
+        }
     }
 
     @Override
     public void remove(K key) {
         int a = hash(key);
+        if (table[a] == null) {
+            table[a] = new LinkedList<>();
+        }
         LinkedList<KVpair> ll = table[a];
-        if(ll != null){
-            KVpair kv = find(ll, key);
-            if(kv != null) {
-                ll.remove(key);
-                elements--;
-            }
+        if (find(ll, key) != null) {
+            ll.remove(find(ll, key));
+            n--;
         }
     }
 
     @Override
     public V get(K key) {
         int a = hash(key);
-        LinkedList<KVpair> b = table[a];
-        if(b != null){
-            KVpair kv = find(b, key);
-            if(kv != null)
-                return kv.value;
-            else
-                return null;
+        if (table[a] == null || find(table[a], key) == null) {
+            return null;
+        }else {
+            LinkedList<KVpair> ll = table[a];
+            return find(ll, key).value;
         }
-        return null;
     }
 
     @Override
     public int size() {
-        return elements;
+        return n;
     }
 
     @Override
     public String toString(){
-        String rtn = "";
-        for(int i = 0; i < table.length; i++){
-            LinkedList<KVpair> ll = table[i];
-            if(ll != null){
-                for(KVpair b : ll){
-                    if(!rtn.equals(""))
-                        rtn += ", ";
-                    rtn += b.toString();
+        String r = "";
+        if (table != null) {
+            for(int i = 0; i< table.length; i++){
+                if (table[i] != null) {
+                    for(KVpair kv : table[i]){
+                        if(r != "")
+                            r += ", ";
+                        r += kv;
+                    }
                 }
             }
         }
-        return rtn;
+        return r;
     }
+
 }

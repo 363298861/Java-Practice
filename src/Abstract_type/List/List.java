@@ -1,4 +1,4 @@
-package Abstract_type.LinkedList;
+package Abstract_type.List;
 
 public interface List<T> {
     public void add(T value);
