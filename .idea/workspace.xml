@@ -1,67 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf138da-06f8-49b3-8f65-81836b520f57" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Abstract_type/Set/BSTSet.java" afterDir="false" />
+    <list default="true" id="dbf138da-06f8-49b3-8f65-81836b520f57" name="Default" comment="learn">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Depth_first_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Paths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/ArrayList/ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/ArrayList/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/ArrayList/List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/ArrayList/ListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/BSTMap/BSTMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/BSTMap/Map.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/BSTMap/MapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/BStree/BSTSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/BStree/BStreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/BStree/HashSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/BStree/Set.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/HashSet/HashSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/HashSet/Set.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/HashSet/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/LinkedList/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/LinkedList/List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/LinkedList/ListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Abstract_type/Map/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract_type/Map/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/LinkedList$LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/BSTMap$BStree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/BSTMap$KVpair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/BSTMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/HashMap$KVpair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/HashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/MapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/BSTSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/HashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/SetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/MakePI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/Threds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Signal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/dog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/learnthis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure02/CircularShift.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/ListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/List.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -70,16 +73,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="1155">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
               <folding>
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
                 <element signature="e#2086#2087#0" expanded="true" />
                 <element signature="e#2146#2147#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/BSTMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Depth_first_Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Paths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,25 +183,28 @@
         <option value="$PROJECT_DIR$/src/HashMap/MapTest.java" />
         <option value="$PROJECT_DIR$/src/HashMap/BSTMap.java" />
         <option value="$PROJECT_DIR$/src/Abstract_type/Set/Set.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/Set/HashSet.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/Set/BSTSet.java" />
         <option value="$PROJECT_DIR$/src/Abstract_type/List/List.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/List/ListTest.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/Map/BSTMap.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java" />
         <option value="$PROJECT_DIR$/src/Abstract_type/Map/Map.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/Map/MapTest.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java" />
-        <option value="$PROJECT_DIR$/src/Abstract_type/List/ArrayList.java" />
         <option value="$PROJECT_DIR$/src/Abstract_type/List/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/List/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/List/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/Map/BSTMap.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/Map/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/Set/HashSet.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/Abstract_type/Set/BSTSet.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Paths.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Paths.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Depth_first_Search.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="294" />
-    <option name="y" value="64" />
+    <option name="x" value="40" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -152,51 +216,23 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Abstract_type" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Abstract_type" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Abstract_type" type="462c0819:PsiDirectoryNode" />
-              <item name="Map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Abstract_type" type="462c0819:PsiDirectoryNode" />
-              <item name="Set" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructure02" type="462c0819:PsiDirectoryNode" />
+              <item name="Undirected_Graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,6 +241,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551567787880" />
     <property name="ghcModFlags" value="" />
     <property name="ghcModPath" value="/usr/local/bin/ghc-mod" />
     <property name="ghcModiFlags" value=" legacy-interactive" />
@@ -215,10 +254,10 @@
     <property name="hlintFlags" value="" />
     <property name="hlintPath" value="/usr/local/bin/hlint" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Haskell compiler" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="stylishHaskellFlags" value="" />
     <property name="stylishHaskellPath" value="/usr/local/bin/stylish-haskell" />
   </component>
@@ -234,12 +273,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SetTest (1)">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Application.test">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.test" />
+      <module name="LearnJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Undirected_Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ListTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnJava" />
@@ -249,20 +308,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Abstract_type.List" />
       <option name="MAIN_CLASS_NAME" value="Abstract_type.List.ListTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MapTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnJava" />
@@ -272,20 +323,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Abstract_type.Map" />
       <option name="MAIN_CLASS_NAME" value="Abstract_type.Map.MapTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnJava" />
@@ -295,20 +338,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="HashMap" />
       <option name="MAIN_CLASS_NAME" value="HashMap.MapTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SetTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnJava" />
@@ -318,96 +353,41 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Abstract_type.Set" />
       <option name="MAIN_CLASS_NAME" value="Abstract_type.Set.SetTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HashSet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="HashSet" />
-      <option name="MAIN_CLASS_NAME" value="HashSet.SetTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.MapTest" />
-      <item itemvalue="JUnit.SetTest" />
       <item itemvalue="JUnit.ListTest (1)" />
       <item itemvalue="JUnit.MapTest (1)" />
       <item itemvalue="JUnit.SetTest (1)" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SetTest (1)" />
-        <item itemvalue="JUnit.MapTest (1)" />
+        <item itemvalue="Application.test" />
         <item itemvalue="JUnit.ListTest (1)" />
+        <item itemvalue="JUnit.MapTest (1)" />
+        <item itemvalue="JUnit.SetTest (1)" />
         <item itemvalue="JUnit.MapTest" />
-        <item itemvalue="JUnit.SetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -421,6 +401,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533602473273</updated>
+      <workItem from="1542969542521" duration="369000" />
+      <workItem from="1542971581693" duration="9000" />
+      <workItem from="1543009706085" duration="100000" />
+      <workItem from="1544663347799" duration="51000" />
+      <workItem from="1551508198325" duration="1892000" />
+      <workItem from="1551567320453" duration="430000" />
     </task>
     <task id="LOCAL-00001" summary="learn">
       <created>1534137620779</created>
@@ -436,72 +422,90 @@
       <option name="project" value="LOCAL" />
       <updated>1542769691840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="learn">
+      <created>1542771332276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542771332276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SetTest - 2018.11.13 at 20h 07m 46s.xml">
-      <configuration name="SetTest" configurationId="JUnit" />
+    <history-entry file="MapTest_(1) - 2018.11.21 at 14h 34m 13s.xml">
+      <configuration name="MapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetTest - 2018.11.13 at 20h 08m 58s.xml">
-      <configuration name="SetTest" configurationId="JUnit" />
+    <history-entry file="MapTest_(1) - 2018.11.21 at 14h 34m 18s.xml">
+      <configuration name="MapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 19m 30s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="SetTest_(1) - 2018.11.21 at 14h 34m 30s.xml">
+      <configuration name="SetTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 19m 39s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="SetTest_(1) - 2018.11.21 at 14h 34m 39s.xml">
+      <configuration name="SetTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 20m 04s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="SetTest_(1) - 2018.11.21 at 14h 34m 51s.xml">
+      <configuration name="SetTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 21m 43s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="SetTest_(1) - 2018.11.21 at 14h 34m 59s.xml">
+      <configuration name="SetTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 23m 17s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="SetTest_(1) - 2018.11.21 at 14h 35m 06s.xml">
+      <configuration name="SetTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 36m 15s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="ListTest_(1) - 2018.11.23 at 21h 39m 26s.xml">
+      <configuration name="ListTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 39m 55s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="MapTest_(1) - 2018.11.24 at 08h 49m 40s.xml">
+      <configuration name="MapTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapTest - 2018.11.14 at 10h 40m 30s.xml">
-      <configuration name="MapTest" configurationId="JUnit" />
+    <history-entry file="ListTest_(1) - 2018.11.24 at 08h 49m 46s.xml">
+      <configuration name="ListTest (1)" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936775" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969698" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -528,23 +532,26 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learn" />
     <option name="LAST_COMMIT_MESSAGE" value="learn" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/learnthis.java" />
-    <entry file="file://$PROJECT_DIR$/src/dog.java" />
-    <entry file="file://$PROJECT_DIR$/src/learnthis.java" />
-    <entry file="file://$PROJECT_DIR$/src/dog.java" />
-    <entry file="file://$PROJECT_DIR$/src/learnthis.java" />
-    <entry file="file://$PROJECT_DIR$/src/dog.java" />
-    <entry file="file://$PROJECT_DIR$/src/dog.java" />
-    <entry file="file://$PROJECT_DIR$/src/dog.java" />
     <entry file="file://$PROJECT_DIR$/src/dog.java" />
     <entry file="file://$PROJECT_DIR$/src/learnthis.java" />
     <entry file="file://$PROJECT_DIR$/src/HashMap/Map.java" />
@@ -569,88 +576,18 @@
     <entry file="file://$PROJECT_DIR$/src/HashMap/HashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/ArrayList/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/ArrayList/LinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BSTMap/BSTMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BSTMap/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BSTMap/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/BSTSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/BStreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BSTMap/BSTMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BSTMap/Map.java" />
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BSTMap/MapTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/BSTSet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/HashSet.java" />
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/BStreeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/ArrayList/ListTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/sa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructure02/CircularShift.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/sa.java" />
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/BSTMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-645">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -661,10 +598,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/BSTSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="1095">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           <folding>
             <element signature="e#2807#2808#0" expanded="true" />
             <element signature="e#2831#2832#0" expanded="true" />
@@ -674,46 +638,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="945">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure02/CircularShift.java" />
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -726,13 +665,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="1155">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
           <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
             <element signature="e#2086#2087#0" expanded="true" />
             <element signature="e#2146#2147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/BSTMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Depth_first_Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,7 +764,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_191</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -794,7 +781,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -813,6 +799,18 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>algs4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
