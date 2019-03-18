@@ -105,13 +105,7 @@ public class NonEmptyBinaryTree<T extends Comparable> extends BinaryTree<T> {
     @Override
     public String toString(){
         String res = "";
-        if(!l.isEmpty()){
-            res += l + ", ";
-        }
-        res += value.toString() + ", ";
-        if(!r.isEmpty())
-            res += r + ", ";
-
+        res = l.toString() + value.toString() + ", " + r.toString();
         return res;
     }
 
@@ -127,5 +121,6 @@ public class NonEmptyBinaryTree<T extends Comparable> extends BinaryTree<T> {
         t = t.insert(11);
         System.out.println(t);
         System.out.println(t.size());
+        System.out.println(t.height());
     }
 }
