@@ -11,8 +11,6 @@ public class Paths {
         this.s = s;
     }
 
-
-
     boolean hasPathTo(int v){
         if(v > g.V() || v < 0)
             throw new IllegalArgumentException();
