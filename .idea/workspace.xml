@@ -1,43 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf138da-06f8-49b3-8f65-81836b520f57" name="Default" comment="learn">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Depth_first_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dbf138da-06f8-49b3-8f65-81836b520f57" name="Default" comment="graph">
+      <change afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Breadth_first_search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Depth_first_search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Digraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Breadth_First_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Depth_first_Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/LinkedList$LL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/ArrayList/ListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/BSTMap$BStree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/BSTMap$KVpair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/HashMap$KVpair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/HashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashMap/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/HashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/HashSet/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/Exception.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/MakePI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/Threds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Java/recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Signal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/dog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/learnthis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure02/CircularShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Depth_first_Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Paths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms_Princeton/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,59 +30,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/ArrayList.java">
+        <entry file="jar://$USER_HOME$/Documents/algs4.jar!/edu/princeton/cs/algs4/KosarajuSharirSCC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="578">
+              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/List.java">
+        <entry file="jar://$USER_HOME$/Documents/algs4.jar!/edu/princeton/cs/algs4/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="1343">
+              <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Abstract_type/List/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
-              <folding>
-                <element signature="e#2086#2087#0" expanded="true" />
-                <element signature="e#2146#2147#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Abstract_type/Map/BSTMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,32 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Depth_first_Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Paths.java">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -157,6 +88,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="u6656110 &lt;huangzhiyuan0711@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -195,9 +131,17 @@
         <option value="$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java" />
         <option value="$PROJECT_DIR$/src/Abstract_type/Set/BSTSet.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Graph.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/Paths.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Paths.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Depth_first_Search.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Paths.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/test.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Paths.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Depth_first_Search.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Undirected_Graph/Breadth_First_Search.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Digraph/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Digraph.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Depth_first_search.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Graph.java" />
       </list>
     </option>
   </component>
@@ -232,6 +176,13 @@
               <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms_Princeton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms_Princeton" type="462c0819:PsiDirectoryNode" />
               <item name="Undirected_Graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -243,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551567787880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551767135751" />
     <property name="ghcModFlags" value="" />
     <property name="ghcModPath" value="/usr/local/bin/ghc-mod" />
     <property name="ghcModiFlags" value=" legacy-interactive" />
@@ -257,7 +208,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="stylishHaskellFlags" value="" />
     <property name="stylishHaskellPath" value="/usr/local/bin/stylish-haskell" />
   </component>
@@ -287,12 +238,12 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.test" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms_Princeton.test" />
       <module name="LearnJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.Undirected_Graph.*" />
+          <option name="PATTERN" value="Algorithms_Princeton.Undirected_Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,11 +326,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.test" />
       <item itemvalue="JUnit.MapTest" />
       <item itemvalue="JUnit.ListTest (1)" />
       <item itemvalue="JUnit.MapTest (1)" />
       <item itemvalue="JUnit.SetTest (1)" />
-      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
@@ -406,7 +357,10 @@
       <workItem from="1543009706085" duration="100000" />
       <workItem from="1544663347799" duration="51000" />
       <workItem from="1551508198325" duration="1892000" />
-      <workItem from="1551567320453" duration="430000" />
+      <workItem from="1551567320453" duration="9978000" />
+      <workItem from="1551585585964" duration="1817000" />
+      <workItem from="1551766768069" duration="468000" />
+      <workItem from="1551865344168" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="learn">
       <created>1534137620779</created>
@@ -429,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542771332276</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="graph">
+      <created>1551567866465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551567866465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -465,12 +426,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2851000" />
+    <option name="totallyTimeSpent" value="14965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -549,12 +511,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learn" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn" />
+    <MESSAGE value="graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dog.java" />
-    <entry file="file://$PROJECT_DIR$/src/learnthis.java" />
-    <entry file="file://$PROJECT_DIR$/src/HashMap/Map.java" />
     <entry file="file://$PROJECT_DIR$/src/HashMap/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/ArrayList/List.java" />
     <entry file="file://$PROJECT_DIR$/src/HashSet/Set.java" />
@@ -602,16 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -688,39 +638,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Paths.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Paths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Graph.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="3111">
+          <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Depth_first_Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Breadth_First_Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Depth_first_Search.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Depth_first_search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Digraph/Breadth_first_search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/algs4.jar!/edu/princeton/cs/algs4/KosarajuSharirSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/algs4.jar!/edu/princeton/cs/algs4/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/Set/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms_Princeton/Undirected_Graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>

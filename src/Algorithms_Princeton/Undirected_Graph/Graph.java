@@ -1,9 +1,6 @@
-package Algorithms.Undirected_Graph;
+package Algorithms_Princeton.Undirected_Graph;
 
 import edu.princeton.cs.algs4.Stack;
-
-import java.util.List;
-
 
 public class Graph {
 
