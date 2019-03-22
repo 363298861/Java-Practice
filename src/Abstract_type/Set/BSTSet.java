@@ -4,6 +4,7 @@ public class BSTSet<T> implements Set<T> {
 
     BStree tree;
     int n;
+
     class BStree{
         T node;
         BStree left, right;
