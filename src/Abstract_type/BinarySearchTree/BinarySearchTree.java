@@ -87,9 +87,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
     // Insert the value to the BST.
     private void insert(BinarySearchTree<T> bst, Node<T> z) {
         //!TODO: Add your implementation here.
-        if(z._value == null)
-            return;
-        if(bst._root == null)
+        /*if(bst._root == null)
             bst._root = z;
         else if(z._value.compareTo(bst._root._value) < 0){
             BinarySearchTree<T> nbst = new BinarySearchTree<>();
@@ -104,7 +102,24 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }else{
             insert(bst, z._left);
             insert(bst, z._right);
+        }*/
+
+        Node<T> y = null;
+        Node<T> x = bst._root;
+        while(x != null){
+            y = x;
+            if(x._value.compareTo(z._value) > 0)
+                x = x._left;
+            else
+                x = x._right;
         }
+        z._parent = y;
+        if(y == null){
+            bst._root = z;
+        }else if(y._value.compareTo(z._value) > 0)
+            y._left = z;
+        else
+            y._right = z;
     }
 
     public void insert(T key) {
@@ -116,16 +131,9 @@ public class BinarySearchTree<T extends Comparable<T>> {
         //!TODO: Add your implementation here.
         Node<T> re;
         if((re = bst.find(z._value)) != null){
-            re._value = null;
-            Node l = re._left;
-            Node r = re._right;
-            re._right = null;
-            re._left = null;
-            re._parent = null;
-            insert(bst, l);
-            insert(bst, r);
+
         }
-        return bst._root;
+        return null;
     }
 
     public void remove(T key) {
