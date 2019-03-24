@@ -1,5 +1,7 @@
 package Abstract_type.RedBlackTree;
 
+import javax.swing.text.rtf.RTFEditorKit;
+
 public class RBTree<T extends Comparable> {
     private Node<T> root;
 
@@ -24,24 +26,27 @@ public class RBTree<T extends Comparable> {
         }
 
         public void insert(Node<T> n){
-            if(n.value == null)
+            if(n == null || n.value == null)
                 return;
-            if(this.value == null){
-                this.value = n.value;
-                this.l = new Node<>();
-                this.r = new Node<>();
-                this.l.parent = this;
-                this.r.parent = this;
-                this.insert(n.l);
-                this.insert(n.r);
+            if(value == null){
+                value = n.value;
+                l = new Node<>();
+                r = new Node<>();
+                l.parent = this;
+                r.parent = this;
+                n.parent = parent;
+                if(n.l != null)
+                    insert(n.l);
+                if(n.r != null)
+                    insert(n.r);
             }else{
                 if(this.value.compareTo(n.value) < 0)
                     this.r.insert(n);
                 else if(this.value.compareTo(n.value) > 0)
                     this.l.insert(n);
                 else{
-                    this.insert(n.l);
-                    this.insert(n.r);
+                    insert(n.l);
+                    insert(n.r);
                 }
             }
         }
@@ -98,6 +103,29 @@ public class RBTree<T extends Comparable> {
             parent.r = this;
             l.parent = this;
         }
+
+        private Node<T> biggest(){
+            if(r != null && r.value != null) {
+                return r.biggest();
+            }
+            return this;
+        }
+
+        @Override
+        public String toString(){
+            String res = "";
+            if(l != null)
+                res += l.toString();
+            if(value != null) {
+                if(!value.equals(biggest().value))
+                    res += value.toString() + ", ";
+                else
+                    res += value.toString();
+            }
+            if(r != null)
+                res += r.toString();
+            return res;
+        }
     }
 
 
@@ -152,17 +180,51 @@ public class RBTree<T extends Comparable> {
         root.color = Color.Black;
     }
 
-    public void insert(T value){ }
+    public void insert(T value){
+        insert(new Node<>(value));
+    }
 
-    private void preOrder(){ }
+    public void preOrder(){
+        System.out.println(root);
+    }
 
-    private Node<T> find(Node<T> x, T v){ return null; }
+    private Node<T> find(Node<T> x, T v){
+        if(x == null || v == null || x.value == null)
+            return null;
+        else if(v.compareTo(x.value) < 0)
+            return find(x.l, v);
+        else if(v.compareTo(x.value) > 0)
+            return find(x.r, v);
+        else
+            return x;
+    }
 
-    public Node<T> search(T key){ return null; }
+    public Node<T> search(T key){
+        return find(this.root, key);
+    }
+
+    public Node<T> remove(Node<T> x, T v){
+        return null;
+    }
 
     public enum Color {
         Red,
         Black;
+    }
+
+    @Override
+    public String toString(){
+        return root.toString();
+    }
+
+    public static void main(String[] args) {
+        RBTree rbTree = new RBTree();
+        rbTree.insert("a");
+        rbTree.insert("b");
+        rbTree.insert("c");
+        rbTree.insert("d");
+        rbTree.insert("e");
+        System.out.println(rbTree);
     }
 }
 
@@ -175,7 +237,29 @@ public class RBTree<T extends Comparable> {
 
         public void insert(Node<T> n){ }
 
+// Rotate the node so it becomes the child of its right branch
+        /*
+            e.g.
+                  [x]                    b
+                 /   \                 /   \
+               a       b     == >   [x]     f
+              / \     / \           /  \
+             c  d    e   f         a    e
+                                  / \
+                                 c   d
+
         public void rotateLeft(){ }
+
+// Rotate the node so it becomes the child of its left branch
+
+            e.g.
+                  [x]                    a
+                 /   \                 /   \
+               a       b     == >     c     [x]
+              / \     / \                   /  \
+             c  d    e   f                 d    b
+                                               / \
+                                              e   f
 
         public void rotateRight(){ }
     }

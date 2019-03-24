@@ -23,6 +23,7 @@ public class InsertDemo {
         System.out.println("Finding number 1,  the answer is Yes, your result is " + (tree.find(1)!=null ? "Yes" : "No"));
         System.out.println("Finding number 12, the answer is No,  your result is " + (tree.find(12)!=null ? "Yes" : "No"));
         System.out.println("Finding number 6,  the answer is No,  your result is " + (tree.find(6)!=null ? "Yes" : "No"));
+        System.out.println(tree);
     }
 
 }

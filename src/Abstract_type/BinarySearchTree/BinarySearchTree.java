@@ -21,8 +21,17 @@ public class BinarySearchTree<T extends Comparable<T>> {
             return _value;
         }
 
-        public String toString() {
-            return _value.toString();
+        @Override
+        public String toString(){
+            String res = "";
+            if(_left != null)
+                res += _left.toString();
+            if(_value != null) {
+                res += _value.toString() + ", ";
+            }
+            if(_right != null)
+                res += _right.toString();
+            return res;
         }
     }
 
@@ -126,14 +135,50 @@ public class BinarySearchTree<T extends Comparable<T>> {
         insert(this, new Node<T>(key,null,null,null));
     }
 
+    private Node<T> successor(Node<T> x){
+        Node<T> y = x._parent;
+        if(x._right != null)
+            return minimum(x._right);
+        while (y != null && x == y._right){
+            x = y;
+            y = y._parent;
+        }
+        return y;
+    }
+
+    private Node<T> minimum(Node<T> x){
+        if(x == null || x._left == null)
+            return x;
+        else
+            return minimum(x._left);
+    }
+
     // Remove a node from the BST
     private Node<T> remove(BinarySearchTree<T> bst, Node<T> z) {
         //!TODO: Add your implementation here.
-        Node<T> re;
-        if((re = bst.find(z._value)) != null){
+        if(bst.find(z._value) == null)
+            return null;
+        Node<T> x, y;
+        if(z._left == null || z._right == null)
+            y = z;
+        else
+            y = successor(z);
+        if(y._left != null)
+            x = y._left;
+        else
+            x = y._right;
+        if(x != null)
+            x._parent = y._parent;
+        if(y._parent == null)
+            bst._root = x;
+        else if(y == y._parent._left)
+            y._parent._left = x;
+        else
+            y._parent._right = x;
 
-        }
-        return null;
+        if(y != z)
+            z._value = y._value;
+        return y;
     }
 
     public void remove(T key) {
@@ -142,6 +187,11 @@ public class BinarySearchTree<T extends Comparable<T>> {
         if ((z = find(_root, key)) != null)
             if ( (node = remove(this, z)) != null)
                 node = null;
+    }
+
+    @Override
+    public String toString(){
+        return _root.toString();
     }
 
 }

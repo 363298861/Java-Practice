@@ -21,12 +21,19 @@ public class RemovePrintDemo {
 
 
         System.out.println("Remove items:");
+        System.out.println(tree);
+
         tree.remove(5);
+        System.out.println(tree);
         tree.remove(4);
+        System.out.println(tree);
         tree.remove(10);
+        System.out.println(tree);
         tree.remove(11);
+        System.out.println(tree);
         System.out.println("Your Pre-order result is: " + tree.nlr());
         System.out.println("    The answer should be: 7 3 1 15");
+
         System.out.println("");
     }
 
