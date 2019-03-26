@@ -1,5 +1,7 @@
 package Abstract_type.RedBlackTree;
 
+import org.omg.CORBA.CODESET_INCOMPATIBLE;
+
 import javax.swing.text.rtf.RTFEditorKit;
 
 public class RBTree<T extends Comparable> {
@@ -203,8 +205,105 @@ public class RBTree<T extends Comparable> {
         return find(this.root, key);
     }
 
-    public Node<T> remove(Node<T> x, T v){
-        return null;
+    private Node<T> successor(Node<T> x){
+        Node<T> y = x.parent;
+        if(x.r != null)
+            return minimum(x.r);
+        while (y != null && x == y.r){
+            x = y;
+            y = y.parent;
+        }
+        return y;
+    }
+
+    private Node<T> minimum(Node<T> x){
+        if(x == null || x.l == null)
+            return x;
+        else
+            return minimum(x.l);
+    }
+    public Node<T> remove(RBTree<T> t, Node<T> z){
+        Node<T> x, y;
+        if(z.l == null || z.r == null)
+            y = z;
+        else
+            y = t.successor(z);
+        if(y.l != null)
+            x = y.l;
+        else
+            x = y.r;
+        x.parent = y.parent;
+        if(y.parent.equals(new Node<>()))
+            t.root = x;
+        else if(y.equals(y.parent.l))
+            y.parent.l = x;
+        else
+            y.parent.r = x;
+        if(!y.equals(z))
+            z.value = y.value;
+        if(y.color == Color.Black)
+            deleteFixUp(t, x);
+
+        return y;
+    }
+
+    private void deleteFixUp(RBTree<T> t, Node<T> x){
+        Node<T> w;
+        while(!x.equals(t.root) && x.color == Color.Black){
+            if(x.equals(x.parent.l)) {
+                w = x.parent.r;
+                if (w.color == Color.Red) {
+                    w.color = Color.Black;
+                    x.parent.color = Color.Red;
+                    x.parent.rotateLeft();
+                    w = x.parent.r;
+                }
+                if(w.l.color == Color.Black && w.r.color == Color.Black){
+                    w.color = Color.Red;
+                    x = x.parent;
+                }else if(w.r.color == Color.Black){
+                    w.l.color = Color.Black;
+                    w.color = Color.Red;
+                    w.rotateRight();
+                    w = x.parent.r;
+                }
+                w.color = x.parent.color;
+                x.parent.color = Color.Black;
+                w.r.color = Color.Black;
+                x.parent.rotateLeft();
+                x = t.root;
+            }else{
+                w = x.parent.l;
+                if (w.color == Color.Red) {
+                    w.color = Color.Black;
+                    x.parent.color = Color.Red;
+                    x.parent.rotateRight();
+                    w = x.parent.l;
+                }
+                if(w.r.color == Color.Black && w.l.color == Color.Black){
+                    w.color = Color.Red;
+                    x = x.parent;
+                }else if(w.l.color == Color.Black){
+                    w.r.color = Color.Black;
+                    w.color = Color.Red;
+                    w.rotateLeft();
+                    w = x.parent.l;
+                }
+                w.color = x.parent.color;
+                x.parent.color = Color.Black;
+                w.l.color = Color.Black;
+                x.parent.rotateRight();
+                x = t.root;
+            }
+        }
+        x.color = Color.Black;
+    }
+    public void remove(T key) {
+        Node<T> z, node;
+
+        if ((z = find(root, key)) != null)
+            if ( (node = remove(this, z)) != null)
+                node = null;
     }
 
     public enum Color {
