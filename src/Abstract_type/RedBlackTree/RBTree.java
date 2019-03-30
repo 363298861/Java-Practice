@@ -311,6 +311,51 @@ public class RBTree<T extends Comparable> {
         Black;
     }
 
+    public boolean root(RBTree<T> t){
+        if(t.root.color != Color.Black)
+            return false;
+        return true;
+    }
+
+    public boolean leaves(Node<T> t){
+        if(t.value == null && t.color == Color.Black)
+            return true;
+        else if(t.value == null && t.color == Color.Red)
+            return false;
+        else
+            return leaves(t.r) && leaves(t.l);
+    }
+
+    public int blackHight(Node<T> node){
+        if (node.value == null){
+            return 1;
+        }
+
+        if (node.color == Color.Black) return 1 + Math.max(blackHight(node.l), blackHight(node.r));
+        return Math.max(blackHight(node.l), blackHight(node.r));
+    }
+
+    public int balanceFactor(Node<T> node){
+        return blackHight(node.l) - blackHight(node.r);
+    }
+
+    public boolean blackBalance(Node<T> node){
+        if (node.value == null) return true;
+        return blackBalance(node.r) && balanceFactor(node) ==0 && blackBalance(node.r);
+    }
+
+    public boolean parentcheck(Node<T> t){
+        if(t.parent == null)
+            return t.color == Color.Black && parentcheck(t.l) && parentcheck(t.r);
+        else if(t.color == Color.Red){
+            if(t.parent.color == Color.Black)
+                return true;
+            else
+                return false;
+        }
+        return true;
+    }
+
     @Override
     public String toString(){
         return root.toString();
@@ -323,7 +368,11 @@ public class RBTree<T extends Comparable> {
         rbTree.insert("c");
         rbTree.insert("d");
         rbTree.insert("e");
+        rbTree.preOrder();
         System.out.println(rbTree);
+        System.out.println(rbTree.blackHight(rbTree.root));
+        System.out.println(rbTree.parentcheck(rbTree.root));
+        System.out.println(rbTree.blackBalance(rbTree.root));
     }
 }
 
