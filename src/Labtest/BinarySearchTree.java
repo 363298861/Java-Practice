@@ -71,15 +71,41 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return "";
     }
 
+    private int ancestors(Node<T> n){
+        int a = 0;
+        if(n._parent == null)
+            return a;
+        else{
+            while(n._parent != null){
+                n = n._parent;
+                a++;
+            }
+        }
+        return a;
+    }
+
     private String postOrder(Node<T> t){
         String res = "";
-        if(t._left != null)
-            res += postOrder(t._left) ;
-        if(t._right != null)
-            res += postOrder(t._right);
-
-        res += t._value.toString() + ", ";
-
+        if(t == null)
+            return res;
+        if(t._left != null){
+            if(ancestors(t._left) % 2 == 0)
+                res += postOrder(t._left);
+            else{
+                res += postOrder(t._left._left);
+                res += postOrder(t._left._right);
+            }
+        }
+        if(t._right != null){
+            if(ancestors(t._right) % 2 == 0)
+                res += postOrder(t._right);
+            else{
+                res += postOrder(t._right._left);
+                res += postOrder(t._right._right);
+            }
+        }
+        if(ancestors(t) % 2 == 0)
+            res += t._value.toString() + ", ";
         return res;
     }
     public String postorder(){
