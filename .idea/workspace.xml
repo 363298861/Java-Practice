@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf138da-06f8-49b3-8f65-81836b520f57" name="Default" comment="red black tree interface">
-      <change afterPath="$PROJECT_DIR$/src/Labtest/Tokenizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No1TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No2AddTwoNos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No3LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No4Median.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No5LongestPalindromic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/test.java" afterDir="false" />
+    <list default="true" id="dbf138da-06f8-49b3-8f65-81836b520f57" name="Default" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No7ReverseInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labtest/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labtest/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,65 +36,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/No1TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/No2AddTwoNos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/No3LongestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/No4Median.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/No5LongestPalindromic.java">
+        <entry file="file://$PROJECT_DIR$/src/Abstract_type/BinarySearchTree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="383">
+              <caret line="175" column="12" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
+              <folding>
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/test.java">
+        <entry file="file://$PROJECT_DIR$/src/Abstract_type/BinaryTree/NonEmptyBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-1327">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#2354#2355#0" expanded="true" />
+                <element signature="e#2378#2379#0" expanded="true" />
+                <element signature="e#2428#2429#0" expanded="true" />
+                <element signature="e#2456#2457#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/Labtest/DebugTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -175,6 +140,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Zhiyuan Huang &lt;u6656110@anu.edu.au&gt;" />
         <option value="u6656110 &lt;huangzhiyuan0711@gmail.com&gt;" />
       </list>
     </option>
@@ -183,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HashSet/HashSet.java" />
         <option value="$PROJECT_DIR$/src/HashMap/HashMap.java" />
         <option value="$PROJECT_DIR$/src/HashMap/MapTest.java" />
         <option value="$PROJECT_DIR$/src/HashMap/BSTMap.java" />
@@ -232,8 +197,9 @@
         <option value="$PROJECT_DIR$/src/Leetcode/No2AddTwoNos.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/No3LongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/No4Median.java" />
-        <option value="$PROJECT_DIR$/src/Leetcode/test.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/No5LongestPalindromic.java" />
+        <option value="$PROJECT_DIR$/src/Leetcode/No7ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/src/Leetcode/test.java" />
       </list>
     </option>
   </component>
@@ -251,8 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +233,21 @@
               <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Abstract_type" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Abstract_type" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearchTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Abstract_type" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
@@ -279,12 +257,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558880451943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560685158071" />
     <property name="ghcModFlags" value="" />
     <property name="ghcModPath" value="/usr/local/bin/ghc-mod" />
     <property name="ghcModiFlags" value=" legacy-interactive" />
@@ -314,37 +294,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No5LongestPalindromic">
+  <component name="RunManager" selected="Application.NonEmptyBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Labtest.BinarySearchTree" />
-      <module name="LearnJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Labtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="No1TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.No1TwoSum" />
-      <module name="LearnJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -370,6 +322,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No7ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.No7ReverseInteger" />
+      <module name="LearnJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonEmptyBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstract_type.BinaryTree.NonEmptyBinaryTree" />
+      <module name="LearnJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstract_type.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,19 +394,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchTree" />
-      <item itemvalue="Application.No1TwoSum" />
       <item itemvalue="Application.No3LongestSubstring" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.No5LongestPalindromic" />
+      <item itemvalue="Application.No7ReverseInteger" />
+      <item itemvalue="Application.NonEmptyBinaryTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.No5LongestPalindromic" />
+        <item itemvalue="Application.NonEmptyBinaryTree" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.No7ReverseInteger" />
+        <item itemvalue="Application.No5LongestPalindromic" />
         <item itemvalue="Application.No3LongestSubstring" />
-        <item itemvalue="Application.No1TwoSum" />
-        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +447,9 @@
       <workItem from="1557187895200" duration="4488000" />
       <workItem from="1558269139951" duration="599000" />
       <workItem from="1558503990125" duration="3656000" />
-      <workItem from="1558876150130" duration="4401000" />
+      <workItem from="1558876150130" duration="4438000" />
+      <workItem from="1559995694015" duration="2084000" />
+      <workItem from="1560685038609" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="learn">
       <created>1534137620779</created>
@@ -525,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553920086035</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="leetcode">
+      <created>1558914119227</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558914119227</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -561,13 +550,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88881000" />
+    <option name="totallyTimeSpent" value="91431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26918977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27452025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -576,7 +565,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3383948" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3383948" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.397463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,7 +637,8 @@
     <MESSAGE value="learn" />
     <MESSAGE value="graph" />
     <MESSAGE value="red black tree interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="red black tree interface" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -663,7 +653,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/BSTSet.java" />
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/HashSet.java" />
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/BStree/BStreeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/ArrayList/ListTest.java" />
@@ -848,25 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BinaryTree/NonEmptyBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-          <folding>
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#2354#2355#0" expanded="true" />
-            <element signature="e#2378#2379#0" expanded="true" />
-            <element signature="e#2428#2429#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/RedBlackTree/RBtreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -892,17 +862,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Labtest/QB1.java" />
-    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BinarySearchTree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="197" lean-forward="true" selection-start-line="2" selection-end-line="197" />
-          <folding>
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Abstract_type/BinarySearchTree/InsertDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -941,6 +900,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/No3LongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/No4Median.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/No5LongestPalindromic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/No7ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labtest/DebugTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Labtest/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
@@ -972,44 +972,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/No3LongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labtest/DebugTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/No4Median.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Leetcode/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/No5LongestPalindromic.java">
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BinaryTree/NonEmptyBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="-1327">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+            <element signature="e#2428#2429#0" expanded="true" />
+            <element signature="e#2456#2457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Abstract_type/BinarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="175" column="12" lean-forward="true" selection-start-line="175" selection-start-column="12" selection-end-line="175" selection-end-column="12" />
+          <folding>
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
