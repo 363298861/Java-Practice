@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class No1TwoSum {
-
+    //Brute-force
     public static int[] twoSum(int[] nums, int target) {
         int[] a = {0, 0};
         for(int i = 0; i < nums.length - 1; i++){
@@ -19,14 +19,27 @@ public class No1TwoSum {
         }
         return null;
     }
-
+    // Using hashmap to tradeoff time with space
     public static int[] twoSum2(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int j = 0; j < nums.length; j++){
+            map.put(nums[j], j);
+        }
+        for(int i = 0; i < nums.length; i++){
+            int complement = target - nums[i];
+            if(map.containsKey(complement) && map.get(complement) != i)
+                return new int[] {i, map.get(complement)};
+        }
+        throw new IllegalArgumentException();
+    }
+
+    public static int[] twoSum3(int[] nums, int target){
         Map<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
             int complement = target - nums[i];
             if(map.containsKey(complement))
                 return new int[] {i, map.get(complement)};
-            map.put(nums[i], i);
+            map.put(complement, i);
         }
         throw new IllegalArgumentException();
     }

@@ -24,7 +24,7 @@ public class EmptyBinaryTree<T extends Comparable> extends BinaryTree<T> {
 
     @Override
     public String treeshow() {
-        return null;
+        return "";
     }
 
     @Override

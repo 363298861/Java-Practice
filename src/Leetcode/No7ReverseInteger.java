@@ -20,12 +20,12 @@ public class No7ReverseInteger {
         try{
             return n * Integer.parseInt(res);
         }catch (Exception e){
-            return (int) (n * Long.parseLong(res));
+            return 0;
         }
 
     }
 
     public static void main(String[] args) {
-        System.out.println(reverse(-2147483648));
+        System.out.println(reverse(-214748348));
     }
 }

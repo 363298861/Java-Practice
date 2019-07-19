@@ -12,8 +12,6 @@ public class RBtreeDemo {
 
         System.out.println("Pre-order traversal result of the tree:");
         tree.preOrder();
-        tree.remove(13);
-        tree.preOrder();
 
     }
 }

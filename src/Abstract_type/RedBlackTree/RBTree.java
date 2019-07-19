@@ -1,9 +1,5 @@
 package Abstract_type.RedBlackTree;
 
-import org.omg.CORBA.CODESET_INCOMPATIBLE;
-
-import javax.swing.text.rtf.RTFEditorKit;
-
 public class RBTree<T extends Comparable> {
     private Node<T> root;
 
