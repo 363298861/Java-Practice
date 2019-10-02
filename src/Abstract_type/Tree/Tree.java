@@ -10,7 +10,7 @@ public class Tree<T extends Comparable<T>>{
         this.right = right;
     }
 
-    /*public void insert(T n){
+    public Tree insert(T n){
         if(n.compareTo(value) < 0){
             if(left == null) {
                 left = new Tree(n, null, null);
@@ -24,9 +24,10 @@ public class Tree<T extends Comparable<T>>{
             else
                 right.insert(n);
         }
-    }*/
+        return this;
+    }
 
-    public Tree insert(T n){
+    /*public Tree insert(T n){
         if(value == n)
             return this;
         else if(value.compareTo(n) < 0){
@@ -38,7 +39,7 @@ public class Tree<T extends Comparable<T>>{
                 return new Tree(value, new Tree(n, null, null), right);
             return new Tree(value, left.insert(n), right);
         }
-    }
+    }*/
 
     private int height(){
         if(left == null && right == null)
@@ -104,9 +105,9 @@ public class Tree<T extends Comparable<T>>{
         Tree t1 = new Tree("c", null, null);
         t1 = t1.insert("g");
         t1 = t1.insert("e");
-        t1 = t1.insert("a");
-        t1 = t1.insert("y");
-        t1 = t1.insert("t");
+        t1.insert("a");
+        t1.insert("y");
+        t1.insert("t");
         System.out.println(t1.preoderTraversal());
         System.out.println(t1.height());
         //t1 = t1.remove("g");
