@@ -1,7 +1,5 @@
 package Abstract_type.BinarySearchTree;
 
-import java.awt.*;
-
 public class BinarySearchTree<T extends Comparable<T>> {
 
     private Node<T> _root; //Root node
@@ -99,23 +97,6 @@ public class BinarySearchTree<T extends Comparable<T>> {
     // Insert the value to the BST.
     private void insert(BinarySearchTree<T> bst, Node<T> z) {
         //!TODO: Add your implementation here.
-        /*if(bst._root == null)
-            bst._root = z;
-        else if(z._value.compareTo(bst._root._value) < 0){
-            BinarySearchTree<T> nbst = new BinarySearchTree<>();
-            nbst._root = bst._root._left;
-            insert(nbst, z);
-            bst._root._left = nbst._root;
-        }else if(z._value.compareTo(bst._root._value) > 0){
-            BinarySearchTree<T> nbst = new BinarySearchTree<>();
-            nbst._root = bst._root._right;
-            insert(nbst, z);
-            bst._root._right = nbst._root;
-        }else{
-            insert(bst, z._left);
-            insert(bst, z._right);
-        }*/
-
         Node<T> y = null;
         Node<T> x = bst._root;
         while(x != null){
@@ -197,5 +178,13 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return _root.toString();
     }
 
+    public static void main(String[] args) {
+        BinarySearchTree b = new BinarySearchTree();
+        b.insert(6);
+        b.insert(2);
+        b.insert(9);
+        b.insert(15);
+        System.out.println(b.nlr());
+    }
 }
 
