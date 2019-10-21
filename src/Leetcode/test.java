@@ -2,25 +2,30 @@ package Leetcode;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 public class test {
-    public int testMethod(int a, int b, int c){
-        if(a > 0){
-            a = 2;
-        }else{
-            a = -2;
-            if(b > 0){
-                b = 2;
+    public static void main(String[] args) {
+        String s = "abc";
+        List<String> res = new ArrayList<>();
+        res.add("a");
+        res.add("b");
+        res.add("c");
+        int t = res.size();
+        for(int i = 0; i < s.length(); i++){
+            String tem = Character.toString(s.charAt(i));
+            for(int j = 0; j < t; j++){
+                res.add(tem + res.get(j));
+
             }
         }
-        if(c > 0){
-            c = 2;
+        int l = 0;
+        while (l < t){
+            res.remove(0);
+            l++;
         }
-        return a + b + c;
-    }
-    @Test
-    public void codeComplete(){
-        assertEquals(testMethod(1,1,1), 6);
     }
 }
