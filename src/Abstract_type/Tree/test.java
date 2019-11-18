@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class test {
     public int method(int a, int b, int c){
         if(a > 0){
-            a = 2;
+            throw new IllegalArgumentException();
         }else{
             a = -2;
             if(b > 0){
@@ -19,6 +19,7 @@ public class test {
         }
         return a + b + c;
     }
+
 
     @Test
     public void testMethod(){

@@ -1,116 +1,67 @@
 package Abstract_type.Tree;
 
-public class Tree<T extends Comparable<T>>{
-    T value;
-    Tree left, right;
+public class Tree {
+    Node root;
 
-    Tree(T value, Tree left, Tree right){
-        this.value = value;
-        this.left = left;
-        this.right = right;
+    public class Node {
+        public Integer value;
+        public Node left, right, parent;
+
+        public Node(Integer value){
+            this.value = value;
+            left = null;
+            right = null;
+            parent = null;
+        }
     }
 
-    public Tree insert(T n){
-        if(n.compareTo(value) < 0){
-            if(left == null) {
-                left = new Tree(n, null, null);
+    public Tree(){
+        root = null;
+    }
+
+    public void insert(Integer value, Node n){
+        if(n.value > value){
+            if(n.left.value == null) {
+                n.left = new Node(value);
+                n.left.parent = n;
             }
             else
-                left.insert(n);
-        }
-        else if(n.compareTo(value) > 0){
-            if(right == null)
-                right = new Tree(n, null, null);
-            else
-                right.insert(n);
-        }
-        return this;
-    }
-
-    /*public Tree insert(T n){
-        if(value == n)
-            return this;
-        else if(value.compareTo(n) < 0){
-            if(right == null)
-                return new Tree(value, left, new Tree(n, null, null));
-            return new Tree(value, left, right.insert(n));
+                insert(value, n.right);
         }else{
-            if(left == null)
-                return new Tree(value, new Tree(n, null, null), right);
-            return new Tree(value, left.insert(n), right);
+
         }
-    }*/
-
-    private int height(){
-        if(left == null && right == null)
-            return 1;
-        else if(left == null)
-            return 1 + right.height();
-        else if(right == null)
-            return 1 + left.height();
-        return 1 + Math.max(left.height(), right.height());
     }
 
-    public Tree remove(T n){
-        if(n == value){
-            if(left == null)
-                return right;
-            else if(right == null)
-                return left;
-            else{
-                T d = (T) left.biggest();
-                return new Tree(d, left.remove(d), right);
-            }
-        }else if(n.compareTo(value) < 0)
-            return new Tree(value, left.remove(n), right);
-        else
-            return new Tree(value, left, right.remove(n));
-    }
-
-    private T biggest(){
-        if(right == null)
-            return value;
-        else
-            return (T) right.biggest();
-    }
-
-    public boolean find(T n){
-        if(n.equals(value))
-            return true;
-        else if(n.compareTo(value) < 0){
-            if(left == null)
-                return false;
-            return left.find(n);
-        }else{
-            if(right == null)
-                return false;
-            return right.find(n);
+    public void insert1(Integer value){
+        Node parent = null;
+        Node x = root;
+        while(x != null){
+            parent = x;
+            if(x.value > value){
+                x = x.left;
+            }else
+                x = x.right;
         }
-
+        if(value > parent.value){
+            x = new Node(value);
+            parent.right = x;
+            x.parent = parent;
+        }
     }
 
-    public String preoderTraversal(){
-        String res = "";
-        res += value + " ";
-        if(left != null)
-            res += left.preoderTraversal();
-        if(right != null)
-            res += right.preoderTraversal();
-
-        return res;
+    public void insert(Integer value){
+        insert(value, root);
     }
-
 
     public static void main(String[] args) {
-        Tree t1 = new Tree("c", null, null);
-        t1 = t1.insert("g");
-        t1 = t1.insert("e");
-        t1.insert("a");
-        t1.insert("y");
-        t1.insert("t");
-        System.out.println(t1.preoderTraversal());
-        System.out.println(t1.height());
-        //t1 = t1.remove("g");
-        System.out.println(t1.preoderTraversal());
+        Tree tree = new Tree();
+        tree.insert(5);
+        tree.insert(10);
+        tree.insert(3);
+        System.out.println(tree);
+        Tree tree2 = new Tree();
+        tree2.insert1(2);
+        System.out.println(tree2);
+
     }
 }
