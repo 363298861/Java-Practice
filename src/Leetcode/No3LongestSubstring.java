@@ -48,6 +48,18 @@ public class No3LongestSubstring {
         return ans;
     }
 
+    public static int modified(String s){
+        int cache[] = new int[256];
+        int res = 0;
+
+        for(int i = 0, j = 0; j < s.length(); i++){
+            j = cache[s.charAt(i)] > 0 ? Math.max(j, cache[s.charAt(i)]) : j;
+            cache[s.charAt(i)] = i + 1;
+            res = Math.max(res, i - j + 1);
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         int a = lengthOfLongestSubstring(" ");
         System.out.println(a);

@@ -1,9 +1,6 @@
 package Leetcode;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class No15ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
@@ -31,10 +28,33 @@ public class No15ThreeSum {
         }
         return list;
     }
+    public List<List<Integer>> threeSum2(int[] nums) {
+        int l = nums.length;
+        List list = new ArrayList<List<Integer>>();
+        Arrays.sort(nums);
+        for(int i = 0; i < l - 2; i++){
+            if(i == 0 || nums[i] != nums[i - 1]){
+                int lo = i + 1, hi = l - 1, sum = -nums[i];
+                while(lo < hi){
+                    if(nums[lo] + nums[hi] == sum){
+                        list.add(Arrays.asList(nums[i], nums[lo], nums[hi]));
+                        while(lo < hi && nums[lo] == nums[lo + 1]) lo++;
+                        while(lo < hi && nums[hi] == nums[hi - 1]) hi--;
+                        lo++;hi--;
+                    }else if(nums[lo] + nums[hi] < sum){
+                        lo++;
+                    }else{
+                        hi--;
+                    }
+                }
+            }
+        }
+        return list;
+    }
 
     public static void main(String[] args) {
         No15ThreeSum n = new No15ThreeSum();
         int[] l = {-1, 0, 1, 2, -1, -4};
-        System.out.println(n.threeSum(l));
+        System.out.println(n.threeSum2(l));
     }
 }
