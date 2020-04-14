@@ -2,13 +2,19 @@ package Leetcode;
 
 public class No48RotateImage {
     public void rotate(int[][] matrix) {
-        int row = matrix.length;
-        int col = matrix[0].length;
 
-        int i = 0;
-        while(i < row / 2){
-            for(int j = i; j < col - i; j++){
-                int t1 = matrix[]
+        int l = matrix.length;
+        for(int i = 0; i < l / 2; i++){
+            int[] tmp = matrix[i];
+            matrix[i] = matrix[l - 1 - i];
+            matrix[l - 1 -i] = tmp;
+        }
+
+        for (int i = 0; i < l; i++){
+            for(int j = i + 1; j < l; j++){
+                int t = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = t;
             }
         }
     }
