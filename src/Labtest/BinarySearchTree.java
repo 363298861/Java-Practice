@@ -1,5 +1,7 @@
 package Labtest;
 
+import java.util.List;
+
 public class BinarySearchTree<T extends Comparable<T>> {
 
     private Node<T> _root; //Root node
@@ -253,8 +255,6 @@ public class BinarySearchTree<T extends Comparable<T>> {
         tree.insert(10);
         tree.insert(15);
         System.out.println(tree);
-        System.out.println(tree.postorder());
-        System.out.println(tree.ancestor(5, 4));
     }
 }
 
