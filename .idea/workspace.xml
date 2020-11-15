@@ -20,176 +20,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf138da-06f8-49b3-8f65-81836b520f57" name="Default" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/Labtest/microsoft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No101SymmetricTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No102BTLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No103ZigZagTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No104MaximumDepthOfBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No105ConstructBTreeFromPreAndIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No106ConstructBTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No107BTLevelTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No108ConvertSortedArrayToBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No109LinkedListToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No110BalancedBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No111MinimumDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No112PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No113PathSumTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No114FlattenBTToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No116PopulatingNextPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No117PopulatingNextPointer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No118PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No119PascalTriangle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No125ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No127WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No129SumRootToLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No130SurroundedRegions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No22GenerateParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No242ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No46Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No47PermutationUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No49GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No54SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No55JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No56MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No59SpiralMatrix2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No60PermutationSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No73SetMatrixZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No74SearchTwoDimMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No77Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No79WordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No80RemoveDuplicatesTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No81SearchInRotatedArrTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No93RestoreIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No98BTInorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/No98ValidateBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Np938SumOfValueInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No131PalindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No134GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No138CopyListWithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No139WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No143ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No144PreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No146LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No147InsertionSortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No148SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No150EvaluateRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No152MaximumSubArrayProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No153FindMinRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No155MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No160IntersectionOfTwoNodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No168ExcelColumnTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No169MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No171ColumnSheetNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No173BSTIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No179LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No187RepeatedDNAsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No189RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No190ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No191NumberOf1Bits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No201BitWiseAnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No203RemoveElementInLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No204CountPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No207CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No208ImplementTrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No209MinimumSizeSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No210CourseScheduleTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No211WordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No213HouseRobberTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No215KthLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No216CombinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No217ContainDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No219ContainsNearbyDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No221MaximalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No222CountCompleteTreeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No223RectangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No225ImplementStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No226InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No227BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No228SumaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No229MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No230KthSmallestBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No231PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No232ImplementQueueUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No235LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No237DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No238ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No240SearchMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No241AddParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No268MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No287FindDuplicateNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No461HammingDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No466TotalHammingDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No703KthLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/No836RectangleOverlap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/BinarySearchTree/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/BinarySearchTree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/BinarySearchTree/InsertDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/BinarySearchTree/RemovePrintDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/BinaryTree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/BinaryTree/EmptyBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/BinaryTree/NonEmptyBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/List/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/List/LinkedList$LinkedL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/List/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/List/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/List/ListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Map/BSTMap$BStree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Map/BSTMap$KVpair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Map/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Map/HashMap$KVpair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Map/HashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Map/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Map/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/RedBlackTree/RBTree$Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/RedBlackTree/RBTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/RedBlackTree/RBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/RedBlackTree/RBtreeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/RedBlackTree/hashTable$Colour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/RedBlackTree/hashTable$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/RedBlackTree/hashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Set/BSTSet$BStree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Set/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Set/HashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Set/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Set/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Tree/Complexity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Tree/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Tree/Tree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Tree/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Abstract_type/Tree/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Digraph/Breadth_first_search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Digraph/Breadth_first_search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Digraph/Depth_first_search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Digraph/Depth_first_search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Digraph/Digraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Digraph/Digraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Breadth_First_Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Breadth_First_Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Depth_first_Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Depth_first_Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Paths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/Undirected_Graph/Paths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Algorithms_Princeton/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Btree/BtreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Btree/BtreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Btree/IntStrTableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Btree/IntStrTableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Btree/KeyAndValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Btree/KeyAndValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Btree/SpitRes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Btree/SpitRes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Btree/StrStrTableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Btree/StrStrTableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Btree/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Btree/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/AddDigitsToSingle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/AddDigitsToSingle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Capitalize_first_letter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Capitalize_first_letter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/CommonDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/CommonDigit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Concatenation2String.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Concatenation2String.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Exercise40.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Exercise40.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/NPlusNNplusNNN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/NPlusNNplusNNN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/OddComesFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/OddComesFirst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Penultimate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Penultimate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/ReverseWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/ReverseWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/SpecificFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/SpecificFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Staircase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/Staircase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/SumOf100PrimeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/JavaExercise1/SumOf100PrimeNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/DebugTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/DebugTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/QA3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/QA3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/QA4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/QA4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/Tokenizer$Tokenresult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/Tokenizer$Tokenresult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/Tokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/Tokenizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Labtest/URL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Labtest/URL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No10RegularExpressionMatching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No10RegularExpressionMatching.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No11ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No11ContainerWithMostWater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No12IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No12IntegerToRoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No13RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No13RomanToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No14LongestPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No14LongestPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No15ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No15ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No16SumClosest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No16SumClosest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No17LetterCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No17LetterCombinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No19RemoveNodeFromEnd$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No19RemoveNodeFromEnd$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No19RemoveNodeFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No19RemoveNodeFromEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No1TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No1TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No20ValidParenthese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No20ValidParenthese.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No21Merge2SortedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No21Merge2SortedList$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No21Merge2SortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No21Merge2SortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No22GenerateParenthese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No22GenerateParenthese.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No24SwapNodesInPairs$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No24SwapNodesInPairs$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No24SwapNodesInPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No24SwapNodesInPairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No26RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No26RemoveDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No27RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No27RemoveElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No2AddTwoNos$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No2AddTwoNos$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No2AddTwoNos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No2AddTwoNos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No3LongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No3LongestSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No4Median.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No4Median.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No5LongestPalindromic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No5LongestPalindromic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No7ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No7ReverseInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No9PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/No9PalindromeNumber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Leetcode/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/META-INF/LearnJava.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/META-INF/LearnJava.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/OOP/Circular.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/OOP/Circular.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/OOP/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/OOP/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/OOP/Sculpture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/OOP/Sculpture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/OOP/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/OOP/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/OOP/SteelPlate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/OOP/SteelPlate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No2Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No2Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No3LargestPrimeFactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No3LargestPrimeFactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No4LargestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No4LargestPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No5SmallestProduct1To20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No5SmallestProduct1To20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No6Difference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No6Difference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No710001PrimeNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No710001PrimeNo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No8FindLargestProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No8FindLargestProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No9PythagoreanTriplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/Project_Euler/No9PythagoreanTriplet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/Grid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/GridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/GridTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/Pointer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/Pointer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/Token$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/Token$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearnJava/lab/Tokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnJava/lab/Tokenizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labtest/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labtest/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/No95UniqueBinaryTreesTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/No95UniqueBinaryTreesTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/No96UniqueBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/No96UniqueBinaryTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Leetcode/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,15 +163,15 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.No130SurroundedRegions">
+  <component name="RunManager" selected="Application.No241AddParentheses">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="No125ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.No125ValidPalindrome" />
+    <configuration name="No227BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.No227BasicCalculator" />
       <module name="LearnJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -294,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="No127WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.No127WordLadder" />
+    <configuration name="No228SumaryRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.No228SumaryRanges" />
       <module name="LearnJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -308,8 +198,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="No129SumRootToLeaf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.No129SumRootToLeaf" />
+    <configuration name="No229MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.No229MajorityElement" />
       <module name="LearnJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -322,8 +212,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="No130SurroundedRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.No130SurroundedRegions" />
+    <configuration name="No241AddParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.No241AddParentheses" />
+      <module name="LearnJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No836RectangleOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.No836RectangleOverlap" />
       <module name="LearnJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -338,20 +242,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.test" />
-      <module name="LearnJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,19 +263,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.No125ValidPalindrome" />
-      <item itemvalue="Application.No127WordLadder" />
-      <item itemvalue="Application.No129SumRootToLeaf" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.No130SurroundedRegions" />
+      <item itemvalue="Application.No227BasicCalculator" />
+      <item itemvalue="Application.No228SumaryRanges" />
+      <item itemvalue="Application.No229MajorityElement" />
+      <item itemvalue="Application.No241AddParentheses" />
+      <item itemvalue="Application.No836RectangleOverlap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.No130SurroundedRegions" />
-        <item itemvalue="Application.No129SumRootToLeaf" />
-        <item itemvalue="Application.No127WordLadder" />
-        <item itemvalue="Application.No125ValidPalindrome" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.No241AddParentheses" />
+        <item itemvalue="Application.No229MajorityElement" />
+        <item itemvalue="Application.No228SumaryRanges" />
+        <item itemvalue="Application.No836RectangleOverlap" />
+        <item itemvalue="Application.No227BasicCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -589,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586865535531</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="leetcode">
+      <created>1595213509691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595213509691</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -664,42 +561,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1791" height="188" key="GridCell.Tab.0.bottom" timestamp="1595167609842">
+    <state x="812" y="247" width="551" height="593" key="#com.intellij.ide.util.MemberChooser" timestamp="1600744711962">
       <screen x="83" y="27" width="1837" height="1052" />
     </state>
-    <state width="1791" height="188" key="GridCell.Tab.0.bottom/83.27.1837.1052@83.27.1837.1052" timestamp="1595167609842" />
-    <state width="1791" height="188" key="GridCell.Tab.0.center" timestamp="1595167609842">
+    <state x="812" y="247" width="551" height="593" key="#com.intellij.ide.util.MemberChooser/83.27.1837.1052@83.27.1837.1052" timestamp="1600744711962" />
+    <state width="1791" height="233" key="GridCell.Tab.0.bottom" timestamp="1603510707424">
       <screen x="83" y="27" width="1837" height="1052" />
     </state>
-    <state width="1791" height="188" key="GridCell.Tab.0.center/83.27.1837.1052@83.27.1837.1052" timestamp="1595167609842" />
-    <state width="1791" height="188" key="GridCell.Tab.0.left" timestamp="1595167609842">
+    <state width="1791" height="233" key="GridCell.Tab.0.bottom/83.27.1837.1052@83.27.1837.1052" timestamp="1603510707424" />
+    <state width="1791" height="233" key="GridCell.Tab.0.center" timestamp="1603510707423">
       <screen x="83" y="27" width="1837" height="1052" />
     </state>
-    <state width="1791" height="188" key="GridCell.Tab.0.left/83.27.1837.1052@83.27.1837.1052" timestamp="1595167609842" />
-    <state width="1791" height="188" key="GridCell.Tab.0.right" timestamp="1595167609842">
+    <state width="1791" height="233" key="GridCell.Tab.0.center/83.27.1837.1052@83.27.1837.1052" timestamp="1603510707423" />
+    <state width="1791" height="233" key="GridCell.Tab.0.left" timestamp="1603510707423">
       <screen x="83" y="27" width="1837" height="1052" />
     </state>
-    <state width="1791" height="188" key="GridCell.Tab.0.right/83.27.1837.1052@83.27.1837.1052" timestamp="1595167609842" />
-    <state width="1791" height="340" key="GridCell.Tab.1.bottom" timestamp="1594614678286">
+    <state width="1791" height="233" key="GridCell.Tab.0.left/83.27.1837.1052@83.27.1837.1052" timestamp="1603510707423" />
+    <state width="1791" height="233" key="GridCell.Tab.0.right" timestamp="1603510707424">
       <screen x="83" y="27" width="1837" height="1052" />
     </state>
-    <state width="1791" height="340" key="GridCell.Tab.1.bottom/83.27.1837.1052@83.27.1837.1052" timestamp="1594614678286" />
-    <state width="1791" height="340" key="GridCell.Tab.1.center" timestamp="1594614678286">
+    <state width="1791" height="233" key="GridCell.Tab.0.right/83.27.1837.1052@83.27.1837.1052" timestamp="1603510707424" />
+    <state x="599" y="276" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1595213513503">
       <screen x="83" y="27" width="1837" height="1052" />
     </state>
-    <state width="1791" height="340" key="GridCell.Tab.1.center/83.27.1837.1052@83.27.1837.1052" timestamp="1594614678286" />
-    <state width="1791" height="340" key="GridCell.Tab.1.left" timestamp="1594614678286">
+    <state x="599" y="276" width="800" height="536" key="Vcs.Push.Dialog.v2/83.27.1837.1052@83.27.1837.1052" timestamp="1595213513503" />
+    <state x="664" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1596342341537">
       <screen x="83" y="27" width="1837" height="1052" />
     </state>
-    <state width="1791" height="340" key="GridCell.Tab.1.left/83.27.1837.1052@83.27.1837.1052" timestamp="1594614678286" />
-    <state width="1791" height="340" key="GridCell.Tab.1.right" timestamp="1594614678286">
-      <screen x="83" y="27" width="1837" height="1052" />
-    </state>
-    <state width="1791" height="340" key="GridCell.Tab.1.right/83.27.1837.1052@83.27.1837.1052" timestamp="1594614678286" />
-    <state x="599" y="284" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1586865537319">
-      <screen x="83" y="27" width="1837" height="1052" />
-    </state>
-    <state x="599" y="284" width="800" height="536" key="Vcs.Push.Dialog.v2/83.27.1837.1052@83.27.1837.1052" timestamp="1586865537319" />
+    <state x="664" y="251" width="672" height="678" key="search.everywhere.popup/83.27.1837.1052@83.27.1837.1052" timestamp="1596342341537" />
   </component>
   <component name="masterDetails">
     <states>
