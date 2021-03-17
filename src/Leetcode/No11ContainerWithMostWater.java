@@ -10,4 +10,18 @@ public class No11ContainerWithMostWater {
         }
         return max;
     }
+
+    public int binarySearch(int[] height){
+        int lo = 0, hi = height.length - 1;
+        int res = 0;
+        while(lo < hi){
+            res = Math.max(res, (hi - lo) * Math.min(height[hi], height[lo]));
+            if(height[lo] <= height[hi]){
+                lo++;
+            }else{
+                hi--;
+            }
+        }
+        return res;
+    }
 }
