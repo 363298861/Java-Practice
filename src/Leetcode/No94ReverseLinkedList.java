@@ -1,6 +1,5 @@
 package Leetcode;
 
-import org.w3c.dom.NodeList;
 
 public class No94ReverseLinkedList {
 
